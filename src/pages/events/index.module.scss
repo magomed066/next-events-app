@@ -1,0 +1,63 @@
+@import '@/scss/variables.scss';
+
+.details {
+    width: 100vw;
+    height: calc(100vh - 7rem);
+
+    @media (max-width: 500px) {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 758px) {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+        color: $black-color;
+        margin: 1rem 0 2rem 0;
+    }
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 33rem;
+        background: #fff;
+        max-height: 30rem;
+        padding: 2rem 2rem;
+        border-radius: .7rem;
+        position: sticky;
+        top: 10rem;
+
+        @media (max-width: 758px) {
+            position: inherit;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        &__title {
+            color: $black-color;
+            font-weight: 500;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.not-found {
+    color: $black-color;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+}

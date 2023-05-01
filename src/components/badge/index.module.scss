@@ -1,0 +1,11 @@
+@import '@/scss/variables.scss';
+
+.badge {
+    display: inline-block;
+    background: $primary-color-light;
+    padding: .4rem .8rem;
+    color: $grey-color-600;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+}

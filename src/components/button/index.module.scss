@@ -1,0 +1,18 @@
+@import '@/scss/variables.scss';
+
+.button {
+    background: $primary-color;
+    color: #fff;
+    border: none;
+    width: 14rem;
+    padding: 1rem;
+    border-radius: .3rem;
+    margin-left: auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.link {
+    color: $primary-color;
+}
