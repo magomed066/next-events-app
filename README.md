@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This is an app I created while learning NextJS. I figured out:
+- how routing works in NextJS
+- how to create dynamic and static routes
+- how to redirect a user programmatically 
+
 ## Getting Started
 
 First, run the development server:
